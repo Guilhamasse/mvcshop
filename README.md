@@ -24,5 +24,5 @@ Modification de l'entité `Produit` avec :
 
 ### Création de données fictives
 * Utilisation de CommandLineRunner pour créer : 
- * 3 fournisseurs
- * un produit associé à chaque fournisseur
+  * 3 fournisseurs
+  * un produit associé à chaque fournisseur
