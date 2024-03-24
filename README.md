@@ -4,12 +4,12 @@
 
 ### Entité
 
-*Création de l'entité `Fournisseur` avec ses attributs : 
+Création de l'entité `Fournisseur` avec ses attributs : 
  *id : Long
  *nom : String ( 3 à 30 caractères)
  *siteweb : String (null ou 10 à 100 caractères)
 
- *Modification de l'entité `Produit` avec : 
+Modification de l'entité `Produit` avec : 
  * id_fournisseur : Ajout d'une référence vers Fournisseur (peut être null)
 
 ### Page des produits
