@@ -1,29 +1,28 @@
-#Mickael FERNANDEZ (Groupe 2)
+ # Projet SpringBoot - Guilhamassé Quentin - 3B
 
-###Fonctionnalités de base : 
+## Améliorations
 
-- *Création de l'entité `Categorie` liée à l'entité `Produit` (et inversement)*
+### Entité
 
-- *Page des produits avec* **(en nouveau)** *:*
-    - *Ajout d'une catégorie quand un produit est créé*
-    - *Modification d'une catégorie quand un produit est édité*
-    - *Affichage de la catégorie du produit*
+Création de l'entité `Fournisseur` avec ses attributs : 
+ * id : Long
+ * nom : String ( 3 à 30 caractères)
+ * siteweb : String (null ou 10 à 100 caractères)
 
-- *Page des catégories avec :*
-    - *Listing des catégories*
-    - *Pagination*
-    - *Recherche d'une catégorie*
-    - *Modification d'une catégorie*
-    - *Ajout d'une catégorie*
+Modification de l'entité `Produit` avec : 
+ * id_fournisseur : Ajout d'une référence vers Fournisseur (peut être null)
 
-###Améliorations apportées : 
+### Page des produits
+* Affichage du fournisseur dans la liste des produits avec lien cliquable vers le fournisseur en question
+* Modification possible du fournisseur quand on modifie un produit
+* Possibilité d'ajouter un fournisseur quand on crée un nouveau produit
 
-- *Page des produits avec* **(en nouveau)** *:*
-    - *Redirection vers la catégorie concernée lors du clic sur la catégorie*
+### Page des fournisseurs
+* Affichage des fournisseurs avec leur(s) produit(s) associés avec lien cliquable vers le produit en question
+* Modification possible d'un fournisseur
+* Possibilité de supprimer un fournisseur (seulement si il n'a pas de produit associé)
 
-- *Page des catégories avec :*
-    - *Listing des produits d'une catégorie*
-    - *Redirection vers le produit concerné lors du clic sur le produit*
-    - *Suppression d'une catégorie (aucune référence de produits pour la catégorie)*
-
-**Bon apéro !** :beers:
+### Création de données fictives
+* Utilisation de CommandLineRunner pour créer : 
+  * 3 fournisseurs
+  * un produit associé à chaque fournisseur
