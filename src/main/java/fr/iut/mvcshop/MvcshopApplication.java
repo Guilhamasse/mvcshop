@@ -21,30 +21,6 @@ public class MvcshopApplication {
 	CommandLineRunner initDataBase( FournisseurRepository fournisseurRepository, ProduitRepository produitRepository) {
 		return args -> {
 
-			// Categorie doux = new Categorie("Doux");
-			// Categorie fort = new Categorie("Fort");
-			// Categorie aop = new Categorie("AOP");
-			// Categorie aoc = new Categorie("AOC");
-
-			// categorieRepository.save(doux);
-			// categorieRepository.save(fort);
-			// categorieRepository.save(aop);
-			// categorieRepository.save(aoc);
-
-			// produitRepository.save(new Produit("Camembert", 2.5, 120, fort));
-			// produitRepository.save(new Produit("Gruyère", 14.00, 120, aop));
-			// produitRepository.save(new Produit("Vache entière", 450.00, 3, aoc));
-			// produitRepository.save(new Produit("Cantal jeune", 10.55, 44, doux));
-			// produitRepository.save(new Produit("Cantal vieux", 19.90, 54, null));
-			// produitRepository.save(new Produit("Beaufort", 45, 0, null));
-			// produitRepository.save(new Produit("Cabecou", 1.99, 450, null));
-
-			// categorieRepository.findAll().forEach(System.out::println);
-			// produitRepository.findAll().forEach(System.out::println);
-
-			// System.out.println("Ajout des catégories");
-			// System.out.println("Ajout des produits");
-
 			Fournisseur four1 = new Fournisseur("four1");
 			Fournisseur four2 = new Fournisseur("four2");
 			Fournisseur four3 = new Fournisseur("four3");
