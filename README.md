@@ -1,6 +1,8 @@
-#Mickael FERNANDEZ (Groupe 2)
+ = Guilhamassé Quentin - 3B
 
-###Fonctionnalités de base : 
+ = Projet SpringBoot
+
+== Améliorations
 
 - *Création de l'entité `Categorie` liée à l'entité `Produit` (et inversement)*
 
