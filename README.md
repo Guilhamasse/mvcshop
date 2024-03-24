@@ -19,6 +19,7 @@ Modification de l'entité `Produit` avec :
 
 ### Page des fournisseurs
 * Affichage des fournisseurs avec leur(s) produit(s) associés avec lien cliquable vers le produit en question
+* Création d'un fournisseur
 * Modification possible d'un fournisseur
 * Possibilité de supprimer un fournisseur (seulement si il n'a pas de produit associé)
 
